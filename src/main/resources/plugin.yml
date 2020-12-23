@@ -1,0 +1,19 @@
+name: ActingCore
+version: ${project.version}
+main: com.jtgreaves.actingcore.Main
+api-version: 1.13
+authors: [JTG_Greaves]
+description: Core for the acting server
+depend:
+  - LuckPerms
+commands:
+  sethealth:
+    description: Sets another user's health.
+  toggleonehitcorpse:
+    description: Summon the actor as a corpse upon being hit.
+  toggledeathcorpse:
+    description: Summon the actor as a corpse upon death.
+  settings:
+    description: Change various settings about the server via a GUI.
+  removeFile:
+    description: Delete those files!
